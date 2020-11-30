@@ -1,0 +1,285 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	background-color: #f0f0f0;
+}
+
+#background{
+	position: relative;
+	min-height: 100vh;
+	background: url(../images/background1.jpg);
+	background-size: cover;
+	background-position: right;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+section{
+	padding: 100px;
+}
+
+#background h2{
+	font-size: 3.5em;
+	color: white;
+	font-weight: 500;
+	line-height: 1.5em;
+}
+
+#background h2 span{
+	font-size: 1.5em;
+	font-weight: 750;
+}
+
+#background h3{
+	font-size: 2em;
+	color: white;
+	font-weight: 500;
+}
+
+.button{
+	position: relative;
+	background: blue;
+	display: inline-block;
+	color: white;
+	margin-top: 20px;
+	padding: 10px 30px;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.button:hover{
+	background: #2b2bff;
+	color: black;
+	transition-duration: 0.5s;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	padding: 20px 100px;
+	z-index: 1000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+}
+
+header .logo{
+	color: white;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 1000;
+	letter-spacing: 2px;
+}
+
+header ul{
+	position: relative;
+	display: flex;
+}
+
+header ul li{
+	position: relative;
+	list-style: none;
+}
+
+header ul li a{
+	position: relative;
+	display: inline-block;
+	margin: 0 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.heading{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 25px;
+	color: black;
+}
+
+.heading h2{
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.content{
+	font-size: 20px;
+	align-content: center;
+}
+
+#about{
+	height: 500px;
+	background-color: white;
+}
+
+#skills{
+	height: 500px;
+}
+
+.btn{
+	width: 200px;
+	background: #a400ba;
+	display: inline-block;
+	color: white;
+	margin: 20px;
+	padding: 10px 30px;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.btn:hover{
+	background: #e100ff;
+	width: 220px;
+	transition-duration: 0.5s;
+}
+
+#skills .content{
+	text-align: center;
+}
+
+#experience{
+	height: 500px;
+	background-color: white;
+}
+
+.hbtn{
+	width: 200px;
+	background: #d15e00;
+	display: inline-block;
+	color: white;
+	margin: 20px;
+	padding: 10px 30px;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: 600;
+	text-align: center;
+}
+
+.hbtn:hover{
+	width: 220px;
+	background: #ff780a;
+	transition-duration: 0.5s;
+}
+
+#hobbies .content{
+	text-align: center;
+}
+
+#contact{
+	height: 500px;
+	background-color: white;
+}
+
+.cbtn{
+	width: 200px;
+	background: #d15e00;
+	display: inline-block;
+	color: white;
+	margin: 20px;
+	padding: 10px 30px;
+	font-size: 18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: 600;
+	text-align: center;
+}
+
+#contact .content{
+	text-align: center;
+}
+
+footer{
+	top: 0;
+	right: 0;
+	width: 100%;
+	padding: 20px 100px;
+	z-index: 1000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: black; 
+}
+
+footer .connect{
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 100;
+	letter-spacing: 2px;
+	font: serif;
+}
+
+footer ul{
+	position: relative;
+	display: flex;
+}
+
+footer ul li{
+	position: relative;
+	list-style: none;
+}
+
+footer ul li a{
+	position: relative;
+	display: inline-block;
+	margin: 0 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.fbtn:hover{
+	background-color: #0d0d0d;
+	transition-duration: 0.5s;
+}
+
+.lsection{
+	width: 100%;
+	height: 100%;
+	background: url(background1.jpg);
+}
+
+#login{
+	text-align: center;
+	padding: 100px;
+	color: white;
+}
+
+.login{
+	background: brown;
+	height: 625px;
+}
+
+form{
+	text-align: center;
+}
+
+label{
+	font-size: 20px;
+	font-weight: 700;
+}
+
+input{
+	width: 200px;
+	height: 40px;
+	margin-left: 10px;
+}
